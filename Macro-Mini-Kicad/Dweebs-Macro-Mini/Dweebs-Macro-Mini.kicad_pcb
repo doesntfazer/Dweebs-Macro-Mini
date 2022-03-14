@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 11)
     (tracks 277)
     (zones 0)
     (modules 57)
@@ -2466,6 +2466,10 @@
     )
   )
 
+  (gr_line (start 73.772884 150.018562) (end 73.81875 39.6875) (layer Edge.Cuts) (width 0.05) (tstamp 623174A2))
+  (gr_line (start 173.0375 150.01875) (end 188.11875 115.8875) (layer Edge.Cuts) (width 0.05) (tstamp 6231749F))
+  (gr_line (start 169.06875 150.01875) (end 173.0375 150.01875) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 169.06875 150.01875) (end 73.772884 150.018562) (layer Edge.Cuts) (width 0.05) (tstamp 62317490))
   (gr_text "Dweebs Macro Mini\nBy: Keyboard Dweebs" (at 91.28125 144.4625) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)))
   )
@@ -2479,9 +2483,6 @@
   (gr_line (start 207.16875 58.7375) (end 188.11875 58.7375) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 207.16875 39.6875) (end 207.16875 58.7375) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 73.81875 39.6875) (end 207.16875 39.6875) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 73.81875 150.8125) (end 73.81875 39.6875) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 172.24375 150.8125) (end 73.81875 150.8125) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 188.11875 115.8875) (end 172.24375 150.8125) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 85.9 44.7125) (end 85.84375 44.7125) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 91.13125 49.94375) (end 85.9 44.7125) (width 0.25) (layer B.Cu) (net 1))
