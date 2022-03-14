@@ -1,0 +1,4 @@
+28 - 1N4148W-TP Diodes
+28 - Cherry MX/ALPS Switches
+1 - Pro Micro or Equivialant
+1 - Case
