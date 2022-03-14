@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L promicro:ProMicro U1
-U 1 1 622EFC0F
-P 2000 3400
-F 0 "U1" H 2000 4543 60  0000 C CNN
-F 1 "ProMicro" H 2000 4437 60  0000 C CNN
-F 2 "promicro:ProMicro" H 2000 4331 60  0000 C CNN
-F 3 "" H 2100 2350 60  0000 C CNN
-	1    2000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 622F04BB
 P 4800 1850
@@ -852,91 +841,40 @@ Text GLabel 6950 1350 1    50   Input ~ 0
 COL5
 Text GLabel 7350 1350 1    50   Input ~ 0
 COL6
+Wire Wire Line
+	4950 1800 4950 1350
+Wire Wire Line
+	5350 1800 5350 1350
+Wire Wire Line
+	5750 1800 5750 1350
+Wire Wire Line
+	6150 1800 6150 1350
+Wire Wire Line
+	6550 1800 6550 1350
+Wire Wire Line
+	6950 1800 6950 1350
+Wire Wire Line
+	7350 1800 7350 1350
+Wire Wire Line
+	4650 4850 4300 4850
+Wire Wire Line
+	4650 4200 4300 4200
+Wire Wire Line
+	4650 3550 4300 3550
+Wire Wire Line
+	4650 2850 4300 2850
 NoConn ~ 2300 2700
 Wire Wire Line
-	2700 3050 3000 3050
-Wire Wire Line
-	3000 3050 3000 2200
-Wire Wire Line
-	3000 2200 4650 2200
-Wire Wire Line
-	2700 3150 3100 3150
-Wire Wire Line
-	3100 3150 3100 2850
-Wire Wire Line
-	3100 2850 4650 2850
-Wire Wire Line
-	2700 3250 3800 3250
-Wire Wire Line
-	3800 3250 3800 3550
-Wire Wire Line
-	3800 3550 4650 3550
-Wire Wire Line
-	2700 3350 3600 3350
-Wire Wire Line
-	3600 3350 3600 4200
-Wire Wire Line
-	3600 4200 4650 4200
-Wire Wire Line
-	2700 3750 3450 3750
-Wire Wire Line
-	3450 3750 3450 4850
-Wire Wire Line
-	3450 4850 4650 4850
-Wire Wire Line
-	7350 750  600  750 
-Wire Wire Line
-	600  750  600  3750
-Wire Wire Line
-	600  3750 1300 3750
-Wire Wire Line
-	7350 750  7350 1800
-Wire Wire Line
-	6950 800  700  800 
-Wire Wire Line
-	700  800  700  3650
-Wire Wire Line
-	700  3650 1300 3650
-Wire Wire Line
-	6950 800  6950 1800
-Wire Wire Line
-	6550 850  750  850 
-Wire Wire Line
-	750  850  750  3550
-Wire Wire Line
-	750  3550 1300 3550
-Wire Wire Line
-	6550 850  6550 1800
-Wire Wire Line
-	6150 900  800  900 
-Wire Wire Line
-	800  900  800  3450
-Wire Wire Line
-	800  3450 1300 3450
-Wire Wire Line
-	6150 900  6150 1800
-Wire Wire Line
-	5750 950  850  950 
-Wire Wire Line
-	850  950  850  3350
-Wire Wire Line
-	850  3350 1300 3350
-Wire Wire Line
-	5750 950  5750 1800
-Wire Wire Line
-	5350 1000 900  1000
-Wire Wire Line
-	900  1000 900  3250
-Wire Wire Line
-	900  3250 1300 3250
-Wire Wire Line
-	5350 1000 5350 1800
-Wire Wire Line
-	4950 1050 2850 1050
-Wire Wire Line
-	2850 1050 2850 3650
-Wire Wire Line
-	2850 3650 2700 3650
-Wire Wire Line
-	4950 1050 4950 1800
+	4650 2200 4300 2200
+$Comp
+L promicro:ProMicro U1
+U 1 1 622EFC0F
+P 2000 3400
+F 0 "U1" H 2000 4543 60  0000 C CNN
+F 1 "ProMicro" H 2000 4437 60  0000 C CNN
+F 2 "promicro:ProMicro" H 2000 4331 60  0000 C CNN
+F 3 "" H 2100 2350 60  0000 C CNN
+	1    2000 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
