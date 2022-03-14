@@ -763,7 +763,7 @@ Wire Wire Line
 	4950 3150 4950 2450
 Connection ~ 4950 3150
 Wire Wire Line
-	4950 2450 4950 1800
+	4950 2450 4950 2350
 Connection ~ 4950 2450
 Connection ~ 4950 1800
 Wire Wire Line
@@ -772,7 +772,7 @@ Wire Wire Line
 	5350 3800 5350 3150
 Connection ~ 5350 3800
 Wire Wire Line
-	5350 3150 5350 2450
+	5350 3150 5350 2900
 Connection ~ 5350 3150
 Wire Wire Line
 	5350 2450 5350 1800
@@ -781,7 +781,7 @@ Connection ~ 5350 1800
 Wire Wire Line
 	5750 3800 5750 3150
 Wire Wire Line
-	5750 3150 5750 2450
+	5750 3150 5750 3050
 Connection ~ 5750 3150
 Wire Wire Line
 	5750 2450 5750 1800
@@ -844,8 +844,6 @@ COL6
 Wire Wire Line
 	4950 1800 4950 1350
 Wire Wire Line
-	5350 1800 5350 1350
-Wire Wire Line
 	5750 1800 5750 1350
 Wire Wire Line
 	6150 1800 6150 1350
@@ -855,17 +853,7 @@ Wire Wire Line
 	6950 1800 6950 1350
 Wire Wire Line
 	7350 1800 7350 1350
-Wire Wire Line
-	4650 4850 4300 4850
-Wire Wire Line
-	4650 4200 4300 4200
-Wire Wire Line
-	4650 3550 4300 3550
-Wire Wire Line
-	4650 2850 4300 2850
 NoConn ~ 2300 2700
-Wire Wire Line
-	4650 2200 4300 2200
 $Comp
 L promicro:ProMicro U1
 U 1 1 622EFC0F
@@ -877,4 +865,57 @@ F 3 "" H 2100 2350 60  0000 C CNN
 	1    2000 3400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3000 2200 4650 2200
+Wire Wire Line
+	3050 2850 4650 2850
+Wire Wire Line
+	2950 4200 4650 4200
+Wire Wire Line
+	2700 4850 2700 3750
+Wire Wire Line
+	2700 4850 4650 4850
+Wire Wire Line
+	2950 4200 2950 3650
+Wire Wire Line
+	2950 3650 2700 3650
+Wire Wire Line
+	2700 3550 4650 3550
+Wire Wire Line
+	3050 2850 3050 3450
+Wire Wire Line
+	3050 3450 2700 3450
+Wire Wire Line
+	3000 2200 3000 3350
+Wire Wire Line
+	3000 3350 2700 3350
+Wire Wire Line
+	5350 1800 5350 1350
+Wire Wire Line
+	5750 3050 2900 3050
+Wire Wire Line
+	2900 3050 2900 3250
+Wire Wire Line
+	2900 3250 2700 3250
+Connection ~ 5750 3050
+Wire Wire Line
+	5750 3050 5750 2450
+Wire Wire Line
+	5350 2900 2850 2900
+Wire Wire Line
+	2850 2900 2850 3150
+Wire Wire Line
+	2850 3150 2700 3150
+Connection ~ 5350 2900
+Wire Wire Line
+	5350 2900 5350 2450
+Wire Wire Line
+	4950 2350 2750 2350
+Wire Wire Line
+	2750 2350 2750 3050
+Wire Wire Line
+	2750 3050 2700 3050
+Connection ~ 4950 2350
+Wire Wire Line
+	4950 2350 4950 1800
 $EndSCHEMATC
