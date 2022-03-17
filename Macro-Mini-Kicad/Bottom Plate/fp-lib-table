@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri "C:/Users/alex2/Documents/Dweebs Macro Mini/Dweebs-Macro-Mini/kbd-master/kicad-footprints/kbd.pretty")(options "")(descr ""))
+)
