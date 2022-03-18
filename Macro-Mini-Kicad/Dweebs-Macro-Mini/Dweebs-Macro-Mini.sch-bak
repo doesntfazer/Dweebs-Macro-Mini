@@ -853,7 +853,7 @@ U 1 1 622EFC0F
 P 2000 3400
 F 0 "U1" H 2000 4543 60  0000 C CNN
 F 1 "ProMicro" H 2000 4437 60  0000 C CNN
-F 2 "promicro:ProMicro" H 2000 4331 60  0000 C CNN
+F 2 "other_parts:ProMicro" H 2000 4331 60  0000 C CNN
 F 3 "" H 2100 2350 60  0000 C CNN
 	1    2000 3400
 	1    0    0    -1  
